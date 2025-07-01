@@ -14,7 +14,9 @@ const txt = document.getElementById("txt");
           txt.value === "ریدم دهن طراح این وبسایت" ||
           txt.value === "ان" ||
           txt.value == "خدا تمام طراحان مریض رو شفا بده" ||
-          txt.value === "به تو چه حرف دل من چیه"
+          txt.value === "به تو چه حرف دل من چیه" ||
+          inputValue === "بابا گی" ||
+          inputValue === "رادین گی"
         ) {
           window.location.href = "jumpy.html";
         }
